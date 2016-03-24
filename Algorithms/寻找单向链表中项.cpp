@@ -20,6 +20,7 @@ public:
         rear=NULL;
     }
     Node* add(int data);
+    Node* mid();
 };
 Node* List::add(int data)
 {
@@ -40,11 +41,27 @@ Node* List::add(int data)
     rear->next=NULL;
     return head;
 }
-
+Node* List::mid()
+{
+    Node* p=new Node;
+    p=head;
+    int mid=(count+1)/2;
+    for(int i=1;i<mid;i++)
+    {
+        p=p->next;
+    }
+    return p;
+}
 
 int main()
 {
-
+    List list=List();
+    list.add(1);
+    list.add(2);
+    list.add(3);
+    list.add(4);
+    //list.add(5);
+    cout<<list.mid()->id<<endl;
 
     return 0;
 }
