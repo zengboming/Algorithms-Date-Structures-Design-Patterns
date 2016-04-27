@@ -1,0 +1,24 @@
+﻿Build started 2016/4/27 20:17:39.
+     1>Project "F:\cocos2d\workspace\HelloWorld\Chapter5_1_MoveAction\proj.win32\Chapter5_1_MoveAction.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\audio\include /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\external /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\extensions /I..\Classes /I.. /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\2d /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\2d\renderer /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\ui /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\base /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\physics /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\math\kazmath /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\2d\platform\win32 /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\cocos\2d\platform\desktop /IF:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\external\glfw3\include\win32 /I"F:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\HelloWorldScene.cpp
+         HelloWorldScene.cpp
+       PreLinkEvent:
+         if not exist "F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\" mkdir "F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\"
+         xcopy /Y /Q "F:\cocos2d\workspace\HelloWorld\cocos2d\cocos\2d\..\..\external\websockets\prebuilt\win32\*.*" "F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\"
+         :VCEnd
+         复制了 2 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\Chapter5_1_MoveAction.exe" /INCREMENTAL /NOLOGO /LIBPATH:F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\ /LIBPATH:F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\ opengl32.lib glew32.lib libzlib.lib libpng.lib libjpeg.lib libtiff.lib libwebp.lib libiconv.lib glfw3.lib freetype250.lib winmm.lib ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\Chapter5_1_MoveAction.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\Chapter5_1_MoveAction.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\libcocos2d.lib
+         F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\libAudio.lib
+         F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\libchipmunk.lib
+         Chapter5_1_MoveAction.vcxproj -> F:\cocos2d\workspace\HelloWorld\proj.win32\Debug.win32\Chapter5_1_MoveAction.exe
+     1>Done Building Project "F:\cocos2d\workspace\HelloWorld\Chapter5_1_MoveAction\proj.win32\Chapter5_1_MoveAction.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.80
